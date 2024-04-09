@@ -43,19 +43,19 @@ const SmartWallet: NextPage = () => {
   };
 
   return (
-    <>
-      <div className="flex items-center flex-col flex-grow pt-10">
-        <div className="px-5 mb-6">
-          <h1 className="text-center">
-            <div className="block text-4xl font-bold">
-              <div className="inline-block relative w-10 h-10 align-bottom mr-2">
-                <Image alt="Base logo" className="cursor-pointer" fill src="/Base_Symbol_Blue.svg" />
-              </div>
-              Smart Wallet
+    <div className="flex items-center flex-col flex-grow pt-10">
+      <div className="px-5 mb-6">
+        <h1 className="text-center">
+          <div className="block text-4xl font-bold">
+            <div className="inline-block relative w-10 h-10 align-bottom mr-2">
+              <Image alt="Base logo" className="cursor-pointer" fill src="/Base_Symbol_Blue.svg" />
             </div>
-          </h1>
-        </div>
+            Smart Wallet
+          </div>
+        </h1>
+      </div>
 
+      {scaAddress ? (
         <div className="space-y-4 flex flex-col items-center bg-base-100 border-base-300 border shadow-md shadow-secondary rounded-3xl px-8 py-8 w-[24rem] max-w-sm">
           {scaAddress ? (
             <>
@@ -89,8 +89,12 @@ const SmartWallet: NextPage = () => {
             {isTxnLoading ? <span className="loading loading-spinner"></span> : "Send"}
           </button>
         </div>
-      </div>
-    </>
+      ) : (
+        <div className="alert alert-warning w-[24rem]">
+          <p>Smart Wallet is not available on this network. Please switch to a supported network.</p>
+        </div>
+      )}
+    </div>
   );
 };
 

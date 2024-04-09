@@ -71,6 +71,11 @@ export const useSmartTransactor = (_walletClient?: WalletClient): TransactionFun
     let notificationId = null;
     let userOpHash: Awaited<WriteContractResult>["hash"] | undefined = undefined;
     try {
+      if (!provider) {
+        notification.error("Cannot access smart account");
+        return;
+      }
+
       const network = await walletClient.getChainId();
       // Get full transaction from public client
       const publicClient = getPublicClient();
