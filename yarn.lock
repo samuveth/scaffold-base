@@ -1394,9 +1394,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nomicfoundation/hardhat-verify@npm:^2.0.3":
-  version: 2.0.3
-  resolution: "@nomicfoundation/hardhat-verify@npm:2.0.3"
+"@nomicfoundation/hardhat-verify@npm:^2.0.5":
+  version: 2.0.5
+  resolution: "@nomicfoundation/hardhat-verify@npm:2.0.5"
   dependencies:
     "@ethersproject/abi": ^5.1.2
     "@ethersproject/address": ^5.0.2
@@ -1409,7 +1409,7 @@ __metadata:
     undici: ^5.14.0
   peerDependencies:
     hardhat: ^2.0.4
-  checksum: 5cc3513d3385eb45c19081e79b1b2a67b13376f0d2c5dc2da07ee41886f82110b0af5b46e7fae6204db8a9d4dcda7e568a630a254bd5567779068bc29c22c86f
+  checksum: f64bf0aedd9487177799043d22cc2628868f06b927cc7ad8966169922489b0014af27b38e3a5fcc43fdd8fe9c4dd49d3588e9a724fc317b3ead5fd263e845561
   languageName: node
   linkType: hard
 
@@ -1531,10 +1531,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openzeppelin/contracts@npm:^4.8.1":
-  version: 4.9.3
-  resolution: "@openzeppelin/contracts@npm:4.9.3"
-  checksum: 4932063e733b35fa7669b9fe2053f69b062366c5c208b0c6cfa1ac451712100c78acff98120c3a4b88d94154c802be05d160d71f37e7d74cadbe150964458838
+"@openzeppelin/contracts@npm:4.9.6":
+  version: 4.9.6
+  resolution: "@openzeppelin/contracts@npm:4.9.6"
+  checksum: 274b6e968268294f12d5ca4f0278f6e6357792c8bb4d76664f83dbdc325f780541538a127e6a6e97e4f018088b42f65952014dec9c745c0fa25081f43ef9c4bf
   languageName: node
   linkType: hard
 
@@ -1823,8 +1823,8 @@ __metadata:
     "@nomicfoundation/hardhat-chai-matchers": ^2.0.3
     "@nomicfoundation/hardhat-ethers": ^3.0.5
     "@nomicfoundation/hardhat-network-helpers": ^1.0.6
-    "@nomicfoundation/hardhat-verify": ^2.0.3
-    "@openzeppelin/contracts": ^4.8.1
+    "@nomicfoundation/hardhat-verify": ^2.0.5
+    "@openzeppelin/contracts": 4.9.6
     "@typechain/ethers-v5": ^10.1.0
     "@typechain/ethers-v6": ^0.5.1
     "@typechain/hardhat": ^9.1.0
