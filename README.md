@@ -1,10 +1,5 @@
-<div align="center">
-  <a href="https://optimism.io"><img alt="Optimism" src="https://github.com/damianmarti/se-2/assets/466652/da205d35-fcd1-4369-9de6-35c819d1cb33" width=320></a>
-  <br />
-  <br />
-</div>
 
-# <img src="https://github.com/damianmarti/se-2/assets/466652/a795d1f3-980b-4e53-9784-ac53b6dd980e" width="35"> Scaffold-Base
+# 🏗️ Scaffold-Base <img src="https://github.com/damianmarti/se-2/assets/466652/a795d1f3-980b-4e53-9784-ac53b6dd980e" width="35">
 
 <h4 align="center">
   <a href="https://docs.scaffoldeth.io">Documentation</a> |
@@ -17,7 +12,7 @@ Scaffold-Base is a fork of Scaffold-ETH2 ready to ship to Base. This fork provid
 
 We highly recommend the Scaffold-ETH2 docs as the primary guideline.
 
-# 🏗 Scaffold-ETH2
+# (forked from 🏗 Scaffold-ETH2)
 
 🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
 
@@ -41,13 +36,13 @@ Before you begin, you need to install the following tools:
 
 ## Quickstart
 
-To get started with Scaffold-ETH 2, follow the steps below:
+To get started with Scaffold-Base, follow the steps below:
 
 1. Clone this repo & install dependencies
 
 ```
-git clone https://github.com/scaffold-eth/scaffold-eth-2.git
-cd scaffold-eth-2
+git clone https://github.com/BuidlGuidl/scaffold-base
+cd scaffold-base
 yarn install
 ```
 
@@ -125,6 +120,17 @@ Deploy your app to Vercel:
 yarn vercel:yolo --prod
 ```
 
+# 🍽️ Fork Mainnet Base
+
+> stop your `yarn chain`
+
+```
+
+yarn fork
+
+```
+
+(now your local hardhat chain is a fork of Base and you can talk to forked Base contracts)
 
 
 ## Documentation
@@ -133,8 +139,6 @@ Visit our [docs](https://docs.scaffoldeth.io) to learn how to start building wit
 
 To know more about its features, check out our [website](https://scaffoldeth.io).
 
-## Contributing to Scaffold-ETH 2
-
-We welcome contributions to Scaffold-ETH 2!
+## Contributing
 
 Please see [CONTRIBUTING.MD](https://github.com/scaffold-eth/scaffold-eth-2/blob/main/CONTRIBUTING.md) for more information and guidelines for contributing to Scaffold-ETH 2.
